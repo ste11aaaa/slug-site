@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pixelify+Sans:wght@400..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*https://coolors.co/2e0219-4a001f-6a0f49-a7c4c2-97efe9*/
+body{
+    background-image: url("img/nebula-color.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: "Pixelify Sans";
+    color: #97EFE9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: #97EFE9;
+    font-size: 3em;
+}
+h2{
+    font-size: 1.8em;
+}
+p{
+    font-size: 1.2em;
+}
+li{
+    font-size: 1.2em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.site-nav a{
+    padding-right: 15px;
+}
+.extra-links a{
+    padding-left: 15px;
+}
+a{
+    color: #97EFE9;
+}
+a:hover, a:focus{
+    color:#EC5FB8;
+}
+.home-main{
+    display: flex;
+    gap: 15px;
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.slug-facts{
+    color: #EC5FB8;
+    border: 2px solid #EC5FB8;
+    padding: 4px;
+}
+.fact-wrapper{
+    border: 2px solid #97EFE9;
+    padding: 15px;
+}
+.bio-image{
+    width:100%;
+}
+.main{
+    border: 2px solid #97EFE9;
+    padding: 4px;
+}
+.main-wrapper{
+    border: 2px solid #EC5FB8;
+    padding: 15px;
+    height: 94%;
+}
+.info p{
+    color: #EC5FB8; 
+}
+.logs{
+    width: 70%;
+    border: 2px solid #97EFE9;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.log{
+    border: 2px solid #EC5FB8;
+    padding: 10px;
+    max-width: 400px;
+}
+.images{
+    width: 70%;
+    border: 2px solid #EC5FB8;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.slug{
+    border: 2px solid #97EFE9;
+    padding: 10px;
+    max-width: 400px;
+}
